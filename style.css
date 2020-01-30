@@ -1,0 +1,57 @@
+
+td.td_style {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 4em;
+   color: gray;    
+}
+
+.table_format {
+    margin: 50px auto 0 auto;
+}
+
+.no_border {
+    border: 0;
+    width: 50px;
+    height: 150px;
+    text-align: center;
+    font-size: 4em;
+}
+
+
+.date_color {
+    color: seagreen
+}
+
+.color_red {
+    color: red !important;
+}
+.color_gray {
+    color: gray !important;
+}
+.color_Blue {
+    color: blue !important;
+}
+.color_orangered {
+    color: orangered !important;
+}
+.color_black {
+    color: black !important;
+}
+
+.panel {
+    font-size: .35em;
+
+}
+
+.SWButton {
+    font-weight: bolder;
+    padding: 10px 45px 10px 45px;
+    background-color: black;
+    color: white;
+    float: right;
+
+}

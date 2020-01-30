@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">    
+        <script src="script.js"></script>
+    </head>
+    <body >
+        
+
+        <table class="table_format">
+            <tr>
+                <th class="no_border" colspan="7" >
+                    <h6>
+                        DIGITAL CLOCK
+                        <hr />
+                    </h6>
+                </th>
+            </tr>
+            <tr>
+                <td class="td_style" id="hour_td">
+                    1
+                </td> 
+                <td class="no_border">
+                    :
+                </td>
+                <td class="td_style" id="min_td">
+                    2
+                </td> 
+                <td class="no_border">
+                    :
+                </td>
+                <td class="td_style" id="sec_td">
+                    3
+                </td> 
+                <td class="no_border">
+                    -
+                </td>
+                <td class="td_style" id="am_pm_td">
+                    am
+                </td>
+            </tr>
+            <tr>
+                <td class="no_border date_color" colspan="7" id="td_date"></td>
+            </tr>
+            <tr>
+                <td class="no_border" colspan="7">
+                    <hr />
+                    <fieldset class="panel">
+                        <legend>Change clock text color</legend>
+                        <label class="color_gray" onclick="changeClockColor('Gray')" >
+                            <input name="clock_Color" type="radio" checked="checked"> Gray
+                        </label>
+                        <label class="color_black">
+                            <input type="radio" name="clock_Color"  onclick="changeClockColor('Black')">Black
+                        </label>
+                        <label class="color_red">
+                            <input name="clock_Color" type="radio" onclick="changeClockColor('Red')"> Red 
+                        </label>
+                        <label class="color_orangered">
+                            <input name="clock_Color" type="radio" onclick="changeClockColor('Orangered')"> Orange 
+                        </label>
+                        <label class="color_blue">
+                            <input name="clock_Color" type="radio" onclick="changeClockColor('Blue')">Blue
+                        </label>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="7">
+                        <input type="button" id="stopWatchButton" class="SWButton" value="Stop Clock" onclick="stop_watch()">
+                </td>
+            </tr>
+        </table>
+
+        
+        <script>
+            updateTime();
+
+
+        </script> 
+    </body>
+</html>
